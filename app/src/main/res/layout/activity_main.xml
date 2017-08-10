@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    >
+
+
+    <Button
+        android:id="@+id/btnPlayMp3DeviceStorage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play an MP3 from Device" />
+
+    <Button
+        android:id="@+id/btnPlayVideoDeviceStorage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play an Video from Device" />
+
+    <Button
+        android:id="@+id/btnMp3Localhost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play an mp3 from Localhost" />
+
+    <Button
+        android:id="@+id/btnVideoLocalhost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play an video from Localhost" />
+
+    <Button
+        android:id="@+id/btnMp3Internet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play an mp3 from any Server" />
+
+    <Button
+        android:id="@+id/btnVideoInternet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play an video from any server" />
+</LinearLayout>
